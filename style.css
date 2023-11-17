@@ -21,7 +21,7 @@ body{
     padding: 2.5em;
 }
 img{
-    padding: 20px;
+    padding: 2em;
     background-color: #2d343c ;
     border-radius: 100%;
 }
@@ -31,7 +31,7 @@ h1{
 }
 p{
     color: hsl(217, 12%, 63%);
-    font-size: 18;
+    font-size: 1em;
 }
 ul{
     display: flex;
@@ -39,10 +39,10 @@ ul{
     margin: 3vh 0;
 }
 ul li{
-    padding: 15px;
+    padding: 1em;
     text-align: center;
-    width: 20px;
-    height: 20px;
+    width: 1.25em;
+    height: 1.25em;
     border-radius: 100%;
     cursor: pointer;
     color: hsl(217, 12%, 63%);
@@ -53,7 +53,7 @@ ul li:hover{
     background-color: hsl(25, 97%, 53%) ;
 }
 input[type=button]{
-    font-size: 15px;
+    font-size: 1em;
     width: 100%;
     padding: 1.5vh 2%;
     color: white;
@@ -78,7 +78,7 @@ input[type=button]:hover{
     background-color: #262E38 ;
 }
 .main2{
-    width: 20em;
+    width: 21em;
     background: linear-gradient(to top, #171E28,#242A32 );
     border-radius: 30px;
     padding: 2.5em;
@@ -101,3 +101,18 @@ input[type=button]:hover{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width : 500px) {
+    .main2{
+        width: 16em;
+    }
+    .main{
+        width: 17em;
+        padding: 2em;
+    }
+    ul li{
+        padding: 0.7em;
+    }
+    .selc{
+        width: 70%;
+    }
+}
