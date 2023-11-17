@@ -14,7 +14,7 @@ body{
 }
 .main{
     /* margin: auto; */
-    width: 25%;
+    width: 20em;
     /* height: 50vh; */
     background: linear-gradient(to top, #171E28,#242A32 );
     border-radius: 30px;
