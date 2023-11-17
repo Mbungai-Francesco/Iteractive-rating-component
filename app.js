@@ -1,5 +1,5 @@
 nums =  document.querySelectorAll('li')
-colored = 0
+// colored = 0
 console.log(nums[0])
 for(i=0;i<nums.length;i++){
     nums[i].addEventListener("click",function (){
@@ -16,12 +16,12 @@ for(i=0;i<nums.length;i++){
                     colored = this.value
                     // console.log("eat")
                 }
-                if(k==this.value-1){
-                    // console.log("eated")
-                    nums[this.value - 1].classList.remove("base")
-                    nums[this.value - 1].classList.add("preShine")
-                    colored = this.value
-                }
+                // if(k==this.value-1){
+                //     // console.log("eated")
+                //     nums[this.value - 1].classList.remove("base")
+                //     nums[this.value - 1].classList.add("preShine")
+                //     colored = this.value
+                // }
             }
         }
         else{
@@ -34,5 +34,9 @@ for(i=0;i<nums.length;i++){
         }
     })
 }
-document.querySelector(".selc span").textContent = colored+1
 // $(".selc span").text(colored+1);
+function submit(){
+    document.querySelector(".main2").classList.toggle("view")
+    document.querySelector(".main").classList.toggle("view")
+    document.querySelector(".selc span").textContent = colored+1
+}

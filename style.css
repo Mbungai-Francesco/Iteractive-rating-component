@@ -96,5 +96,8 @@ input[type=button]:hover{
     margin: auto;
     border-radius: 20px;
 }
+.view{
+    display: none;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
