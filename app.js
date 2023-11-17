@@ -1,5 +1,5 @@
 nums =  document.querySelectorAll('li')
-colored = []
+colored = 0
 console.log(nums[0])
 for(i=0;i<nums.length;i++){
     nums[i].addEventListener("click",function (){
@@ -13,12 +13,14 @@ for(i=0;i<nums.length;i++){
                 if(k==this.value){
                     nums[this.value].classList.remove("base")
                     nums[this.value].classList.add("shine")
-                    console.log("eat")
+                    colored = this.value
+                    // console.log("eat")
                 }
                 if(k==this.value-1){
-                    console.log("eated")
+                    // console.log("eated")
                     nums[this.value - 1].classList.remove("base")
                     nums[this.value - 1].classList.add("preShine")
+                    colored = this.value
                 }
             }
         }
@@ -28,6 +30,9 @@ for(i=0;i<nums.length;i++){
             }
             nums[this.value].classList.remove("base")
             nums[this.value].classList.toggle("shine")
+            colored = this.value
         }
     })
 }
+document.querySelector(".selc span").textContent = colored+1
+// $(".selc span").text(colored+1);
