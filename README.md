@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://mbungai-francesco.github.io/Iteractive-rating/)
+- Live Site URL: (https://mbungai-francesco.github.io/Iteractive-rating-component/)
 
 ## My process
 
