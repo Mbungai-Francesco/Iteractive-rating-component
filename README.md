@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-js--HeCpMPEJo)
 - Live Site URL: (https://mbungai-francesco.github.io/Iteractive-rating-component/)
 
 ## My process
