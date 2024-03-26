@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./ScreenShots/1.png)
-![](./ScreenShots/2.png)
+![](./ScreenShots/2.png) 
 
 ### Links
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-This project just helped me refine my JS skills and see some areas where I am lagging behing.
+This project just helped me refine my JS skills and see some areas where I am lagging behind.
 
 
 ## Author
@@ -56,7 +56,6 @@ This project just helped me refine my JS skills and see some areas where I am la
 - Frontend Mentor - [@Mbungai-Francesco](https://www.frontendmentor.io/profile/Mbungai-Francesco)
 - Twitter - [@MbungaiF](https://twitter.com/MbungaiF)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
